@@ -1,0 +1,8 @@
+n=int(input())
+c=int(input())
+p=int(input())
+t=(c*p)
+if t<=n:
+    print("yes")
+else :
+    print("no")
