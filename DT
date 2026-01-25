@@ -1,0 +1,8 @@
+s=int(input())
+m=int(input())
+l=int(input())
+b=(1*s+2*m+3*l)
+if b>=10:
+    print("happy")
+else :
+    print("sad")
