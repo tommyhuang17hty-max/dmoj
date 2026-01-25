@@ -1,0 +1,14 @@
+a=int(input())
+a1=int(input())
+a2=int(input())
+b=int(input())
+b1=int(input())
+b2=int(input())
+af=(a*3+a1*2+a2*1)
+bf=(b*3+b1*2+b2*1)
+if af > bf:
+    print("A")
+elif bf > af:
+    print("B")
+else :
+    print("T")
