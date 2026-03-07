@@ -1,0 +1,9 @@
+b=int(input())
+t=int(input())
+p=int(input())
+f=(t-p)
+if f>=b:
+    r=(f-b)
+    print("Y",r)
+else:
+    print("N")
