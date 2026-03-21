@@ -1,0 +1,21 @@
+d=int(input())
+e=int(input())
+w=int(input())
+a=(d-100)
+if a<0:
+    a=0
+plana=a*0.25 + e*0.15 + w*0.20
+plana = round(plana,2)
+b=(d-250)
+if b<0:
+    b=0
+planb=b*0.45 + e*0.35 + w*0.25
+planb = round(planb,2)
+print(f"Plan A costs {plana}")
+print(f"Plan B costs {planb}")
+if plana>planb:
+    print("Plan B is cheapest.")
+if plana<planb:
+    print("Plan A is cheapest.")
+if plana==planb:
+    print("Plan A and B are the same price.")
