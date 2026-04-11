@@ -1,0 +1,9 @@
+s=int(input())
+w=int(input())
+if s>w:
+    w = w+24
+t = w - s
+if (s>20 and s<23) and (w>6 and w<9) and (t>8 and t<10):
+    print("Healthy")
+else:
+    print("Unhealthy")
