@@ -1,0 +1,38 @@
+b=int(input())
+s=int(input())
+d=int(input())
+de=int(input())
+if b==1:
+    bc=(461)
+if b==2:
+    bc=(431)
+if b==3:
+    bc=(420)
+if b==4:
+    bc=(0)
+if d==1:
+    dc=(130)
+if d==2:
+    dc=(160)
+if d==3:
+    dc=(118)
+if d==4:
+    dc=(0)
+if s==1:
+    sc=(100)
+if s==2:
+    sc=(57)
+if s==3:
+    sc=(70)
+if s==4:
+    sc=(0)
+if de==1:
+    dec=(167)
+if de==2:
+    dec=(266)
+if de==3:
+    dec=(75)
+if de==4:
+    dec=(0)
+c=(bc+dc+sc+dec)
+print(f"Your total Calorie count is {c}.")
